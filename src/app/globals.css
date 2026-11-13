@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-plaster: #FAF8F5;
+  --text-charcoal: #1F2937;
+}
+
+body {
+  background-color: var(--bg-plaster);
+  color: var(--text-charcoal);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom subtle scrollbars for horizontal category pills */
+::-webkit-scrollbar {
+  height: 5px;
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 9999px;
+}
