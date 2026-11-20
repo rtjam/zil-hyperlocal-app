@@ -1,4 +1,4 @@
-/// <reference types="@capacitor/cli" />
+
 
 const appUrl =
   process.env.CAPACITOR_SERVER_URL || "http://localhost:3000";
